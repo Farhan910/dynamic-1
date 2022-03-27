@@ -59,8 +59,8 @@ function withdraw() {
   const totalWithdraw = addMoney(withdrawOutput.innerText,withdrawValue.value);
   withdrawOutput.innerText = totalWithdraw
   
-  const totalWithdrawBalance = removeMoney(balanceOutput.innerText,withdrawValue.value)
-  balanceOutput.innerText = totalWithdrawBalance;
+  const totalBalance = removeMoney(balanceOutput.innerText,withdrawValue.value)
+  balanceOutput.innerText = totalBalance;
 
   withdrawValue.value = "";
 }
